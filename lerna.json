@@ -1,0 +1,13 @@
+{
+  "version": "independent",
+  "command": {
+    "publish": {
+      "verifyRegistry": false,
+      "verifyAccess": false,
+      "message": "chore: publish"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["packages/*"]
+}

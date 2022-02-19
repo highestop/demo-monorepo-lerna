@@ -1,0 +1,16 @@
+{
+  "name": "demo-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo 'build root'",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typescript": "^4.5.5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo/demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'build demo'",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@monorepo/app": "^1.0.0",
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0"
+  }
+}
